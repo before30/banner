@@ -18,7 +18,7 @@ import java.util.List;
 //@AllArgsConstructor
 public class VitaminBannerPrinter {
     private static final String BANNER_LOCATION_PROPERTY = "banner.location";
-    private static final String DEFAULT_BANNER_LOCATION = "classpath:banner.txt";
+    private static final String DEFAULT_BANNER_LOCATION = "classpath:_banner.txt";
     private static final Banner DEFAULT_BANNER = new DefaultBanner();
 
     private final ResourceLoader resourceLoader;
